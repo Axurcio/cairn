@@ -1,0 +1,48 @@
+{
+  "name": "ArcKit (cairn)",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/${localWorkspaceFolderBasename},type=bind,consistency=cached",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "22"
+    },
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/azure-cli:1": {}
+  },
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "postStartCommand": "bash .devcontainer/post-start.sh",
+  "remoteUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "DavidAnson.vscode-markdownlint",
+        "marp-team.marp-vscode",
+        "hediet.vscode-drawio",
+        "anthropic.claude-code",
+        "minazukie.cursor-agent",
+        "openai.chatgpt"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.testing.pytestEnabled": true,
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.minimumContrastRatio": 7,
+        "workbench.colorTheme": "Default Dark Modern",
+        "window.title": "ArcKit · ${separator}${activeEditorShort}"
+      }
+    }
+  },
+  "remoteEnv": {
+    "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "64000",
+    "PATH": "${containerEnv:PATH}:/home/vscode/.local/bin"
+  },
+  "containerEnv": {
+  }
+}
