@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29T00:14:00.790Z",
+  "generated": "2026-09-29T00:35:00.371Z",
   "repository": {
     "name": "cairn"
   },
@@ -1935,6 +1935,13 @@
           "extension": ".md"
         },
         {
+          "path": "projects/001-cairn/ARC-001-DPIA-v1.0.md",
+          "title": "Data Protection Impact Assessment",
+          "category": "Compliance",
+          "documentId": "ARC-001-DPIA-v1.0",
+          "extension": ".md"
+        },
+        {
           "path": "projects/001-cairn/ARC-001-REQ-v1.0.md",
           "title": "Requirements",
           "category": "Discovery",
@@ -1946,6 +1953,20 @@
           "title": "Requirements",
           "category": "Discovery",
           "documentId": "ARC-001-REQ-v1.1",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-cairn/ARC-001-RISK-v1.0.md",
+          "title": "Risk Register",
+          "category": "Governance",
+          "documentId": "ARC-001-RISK-v1.0",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-cairn/ARC-001-RISK-v1.1.md",
+          "title": "Risk Register",
+          "category": "Governance",
+          "documentId": "ARC-001-RISK-v1.1",
           "extension": ".md"
         },
         {
@@ -2137,6 +2158,96 @@
           "draft": true,
           "orphan": false,
           "ageDays": 1
+        }
+      },
+      "ARC-001-DPIA-v1.0": {
+        "type": "DPIA",
+        "project": "001-cairn",
+        "path": "projects/001-cairn/ARC-001-DPIA-v1.0.md",
+        "title": "Data Protection Impact Assessment (DPIA)",
+        "status": "DRAFT",
+        "severity": "HIGH",
+        "createdDate": "2026-09-29",
+        "lastModified": "2026-09-29",
+        "version": "1.0",
+        "owner": "Chris McKelt (Privacy Officer, S-8)",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-DPIA-v1.0",
+          "Document Type": "Data Protection Impact Assessment (Australian privacy impact assessment)",
+          "Project": "Cairn — Longitudinal Guidance and Evidence Platform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-09-29",
+          "Last Modified": "2026-09-29",
+          "Review Cycle": "Annual, and on the triggers in section 10",
+          "Next Review Date": "2027-09-29",
+          "Owner": "Chris McKelt (Privacy Officer, S-8)",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Executive Sponsor, Privacy Officer, Clinical Safety Lead, Architecture Review Board, pilot health service privacy contact",
+          "Low Likelihood": "LOW",
+          "Medium Likelihood": "LOW",
+          "High Likelihood": "MEDIUM"
+        },
+        "reqIds": [
+          "FR-020",
+          "FR-021",
+          "FR-022",
+          "DR-010",
+          "NFR-S-001",
+          "FR-004",
+          "FR-016",
+          "FR-025",
+          "FR-014",
+          "FR-018",
+          "FR-035",
+          "FR-044",
+          "DR-006",
+          "NFR-C-001",
+          "FR-011",
+          "FR-003",
+          "FR-023",
+          "FR-026",
+          "FR-030",
+          "FR-032",
+          "DR-002",
+          "NFR-C-004",
+          "FR-033",
+          "FR-034",
+          "INT-009",
+          "BR-002",
+          "NFR-C-006",
+          "NFR-SEC-003",
+          "NFR-SEC-007",
+          "FR-039",
+          "FR-012",
+          "FR-015",
+          "FR-028",
+          "NFR-SEC-002",
+          "NFR-C-002",
+          "FR-050",
+          "NFR-U-002",
+          "DR-012",
+          "FR-036",
+          "FR-046",
+          "DR-008",
+          "NFR-SEC-001",
+          "NFR-SEC-009",
+          "FR-009",
+          "FR-017",
+          "DR-005",
+          "NFR-I-003",
+          "FR-047"
+        ],
+        "health": {
+          "stale": false,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 0
         }
       },
       "ARC-001-REQ-v1.0": {
@@ -2478,6 +2589,191 @@
           "ageDays": 1
         }
       },
+      "ARC-001-RISK-v1.0": {
+        "type": "RISK",
+        "project": "001-cairn",
+        "path": "projects/001-cairn/ARC-001-RISK-v1.0.md",
+        "title": "Risk Register: Cairn — Longitudinal Guidance and Evidence Platform",
+        "status": "DRAFT",
+        "severity": "HIGH",
+        "createdDate": "2026-09-29",
+        "lastModified": "2026-09-29",
+        "version": "1.0",
+        "owner": "Chris McKelt (Product Owner and Architecture Owner)",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-RISK-v1.0",
+          "Document Type": "Risk Register",
+          "Project": "Cairn — Longitudinal Guidance and Evidence Platform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-09-29",
+          "Last Modified": "2026-09-29",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-10-29",
+          "Owner": "Chris McKelt (Product Owner and Architecture Owner)",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Project Team, Architecture Team, Executive Sponsor",
+          "TOTAL SCORE": "302",
+          "STRATEGIC": "4",
+          "OPERATIONAL": "3",
+          "FINANCIAL": "2",
+          "COMPLIANCE": "7",
+          "REPUTATIONAL": "2",
+          "TECHNOLOGY": "5",
+          "Likelihood": "1 - Rare",
+          "Impact": "3 - Moderate",
+          "Inherent Risk Score": "**6** (Medium)",
+          "Residual Risk Score": "**3** (Low)",
+          "TOLERATE": "2",
+          "TREAT": "20",
+          "TRANSFER": "0",
+          "TERMINATE": "1",
+          "TOTAL": "23",
+          "Critical (20-25)": "Weekly",
+          "High (13-19)": "Fortnightly",
+          "Medium (6-12)": "Monthly",
+          "Low (1-5)": "Quarterly",
+          "Risk Register Owner": "Chris McKelt (Product Owner)",
+          "Clinical Safety and Regulatory Lead": "Chris McKelt",
+          "Executive Sponsor": "Haim Ozchakir"
+        },
+        "reqIds": [
+          "FR-029",
+          "FR-021",
+          "FR-026",
+          "FR-015",
+          "FR-047",
+          "FR-032",
+          "FR-036",
+          "NFR-SEC-003",
+          "NFR-M-001",
+          "NFR-SEC-007",
+          "FR-028",
+          "DR-006",
+          "FR-011",
+          "FR-012",
+          "FR-046",
+          "FR-040",
+          "FR-044",
+          "DR-015",
+          "FR-051",
+          "FR-043",
+          "DR-014",
+          "BR-001",
+          "NFR-M-004",
+          "FR-030",
+          "FR-023",
+          "FR-037",
+          "NFR-P-006",
+          "NFR-C-006",
+          "DR-012",
+          "DR-007"
+        ],
+        "health": {
+          "stale": false,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 0
+        }
+      },
+      "ARC-001-RISK-v1.1": {
+        "type": "RISK",
+        "project": "001-cairn",
+        "path": "projects/001-cairn/ARC-001-RISK-v1.1.md",
+        "title": "Risk Register: Cairn — Longitudinal Guidance and Evidence Platform",
+        "status": "DRAFT",
+        "severity": "HIGH",
+        "createdDate": "2026-09-29",
+        "lastModified": "2026-09-29",
+        "version": "1.1",
+        "owner": "Chris McKelt (Product Owner and Architecture Owner)",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-RISK-v1.1",
+          "Document Type": "Risk Register",
+          "Project": "Cairn — Longitudinal Guidance and Evidence Platform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2026-09-29",
+          "Last Modified": "2026-09-29",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-10-29",
+          "Owner": "Chris McKelt (Product Owner and Architecture Owner)",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Project Team, Architecture Team, Executive Sponsor",
+          "TOTAL SCORE": "326",
+          "STRATEGIC": "4",
+          "OPERATIONAL": "3",
+          "FINANCIAL": "2",
+          "COMPLIANCE": "9",
+          "REPUTATIONAL": "2",
+          "TECHNOLOGY": "5",
+          "Likelihood": "2 - Unlikely",
+          "Impact": "3 - Moderate",
+          "Inherent Risk Score": "**9** (Medium)",
+          "Residual Risk Score": "**6** (Medium)",
+          "TOLERATE": "3",
+          "TREAT": "21",
+          "TRANSFER": "0",
+          "TERMINATE": "1",
+          "TOTAL": "25",
+          "Critical (20-25)": "Weekly",
+          "High (13-19)": "Fortnightly",
+          "Medium (6-12)": "Monthly",
+          "Low (1-5)": "Quarterly",
+          "Risk Register Owner": "Chris McKelt (Product Owner)",
+          "Clinical Safety and Regulatory Lead": "Chris McKelt",
+          "Executive Sponsor": "Haim Ozchakir"
+        },
+        "reqIds": [
+          "FR-029",
+          "FR-021",
+          "FR-026",
+          "FR-015",
+          "FR-047",
+          "FR-032",
+          "FR-036",
+          "NFR-SEC-003",
+          "NFR-M-001",
+          "NFR-SEC-007",
+          "FR-028",
+          "DR-006",
+          "FR-011",
+          "FR-012",
+          "FR-046",
+          "FR-040",
+          "FR-044",
+          "DR-015",
+          "FR-051",
+          "FR-043",
+          "DR-014",
+          "BR-001",
+          "NFR-M-004",
+          "FR-030",
+          "FR-023",
+          "FR-037",
+          "NFR-P-006",
+          "NFR-C-006",
+          "DR-012",
+          "DR-007",
+          "FR-003"
+        ],
+        "health": {
+          "stale": false,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 0
+        }
+      },
       "ARC-001-STKE-v1.0": {
         "type": "STKE",
         "project": "001-cairn",
@@ -2631,6 +2927,31 @@
         "type": "references"
       },
       {
+        "from": "ARC-001-DPIA-v1.0",
+        "to": "ARC-001-DATA",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-DPIA-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-DPIA-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-DPIA-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-DPIA-v1.0",
+        "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
         "from": "ARC-001-REQ-v1.0",
         "to": "ARC-000-PRIN",
         "type": "references"
@@ -2648,6 +2969,41 @@
       {
         "from": "ARC-001-REQ-v1.1",
         "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-RISK-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-RISK-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-RISK-v1.0",
+        "to": "ARC-001-DATA",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-RISK-v1.1",
+        "to": "ARC-001-DPIA",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-RISK-v1.1",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-RISK-v1.1",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-RISK-v1.1",
+        "to": "ARC-001-DATA",
         "type": "references"
       },
       {
@@ -2683,7 +3039,7 @@
     ]
   },
   "projectHealth": {
-    "baseline": "2026-09-29T00:14:00.854Z",
+    "baseline": "2026-09-29T00:35:00.569Z",
     "staleThresholdDays": 90,
     "essentialTypes": [
       {
@@ -2753,21 +3109,16 @@
       {
         "project": "001-cairn",
         "projectId": "001",
-        "artifactCount": 6,
-        "edgeCount": 13,
-        "density": 2.17,
+        "artifactCount": 9,
+        "edgeCount": 25,
+        "density": 2.78,
         "coverage": {
           "essentialPresent": [
             "REQ",
-            "STKE"
+            "STKE",
+            "RISK"
           ],
           "essentialMissing": [
-            {
-              "type": "RISK",
-              "command": "/arckit:risk",
-              "label": "Risk Register",
-              "tier": 1
-            },
             {
               "type": "SOBC",
               "command": "/arckit:sobc",
@@ -2799,26 +3150,31 @@
               "tier": 4
             }
           ],
-          "essentialPct": 25,
+          "essentialPct": 38,
           "presentTypes": [
             "DATA",
+            "DPIA",
             "REQ",
+            "RISK",
             "STKE"
           ],
           "presentByCategory": {
             "Architecture": 1,
-            "Discovery": 2
+            "Compliance": 1,
+            "Discovery": 2,
+            "Governance": 1
           }
         },
         "compliance": {
-          "presentHigh": [],
+          "presentHigh": [
+            "DPIA",
+            "RISK"
+          ],
           "missingHigh": [
             "TCOP",
             "SECD",
             "SECD-MOD",
-            "DPIA",
             "SVCASS",
-            "RISK",
             "TRAC",
             "CONF",
             "PRIN-COMP",
@@ -2826,20 +3182,15 @@
             "ATRS",
             "JSP936"
           ],
-          "pct": 0,
+          "pct": 17,
           "total": 12
         },
         "health": {
           "stale": 0,
-          "draft": 6,
+          "draft": 9,
           "orphan": 0
         },
         "contextualSuggestions": [
-          {
-            "command": "/arckit:dpia",
-            "type": "DPIA",
-            "trigger": "processing personal data"
-          },
           {
             "command": "/arckit:secure",
             "type": "SECD",
@@ -2854,13 +3205,6 @@
         "hasGlobalPrin": true,
         "recommendations": [
           {
-            "command": "/arckit:risk",
-            "label": "Risk Register",
-            "type": "RISK",
-            "tier": 1,
-            "reason": "Tier 1 essential missing"
-          },
-          {
             "command": "/arckit:sobc",
             "label": "Strategic Outline Business Case",
             "type": "SOBC",
@@ -2871,6 +3215,13 @@
             "command": "/arckit:adr",
             "label": "Architecture Decision Record",
             "type": "ADR",
+            "tier": 3,
+            "reason": "Tier 3 essential missing"
+          },
+          {
+            "command": "/arckit:hld-review",
+            "label": "High-Level Design Review",
+            "type": "HLDR",
             "tier": 3,
             "reason": "Tier 3 essential missing"
           }
