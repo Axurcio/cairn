@@ -1,0 +1,19 @@
+{
+  "generated": "2026-09-28T23:55:27.582Z",
+  "sessions": [
+    {
+      "ts": "2026-09-28T23:55:27.582Z",
+      "type": "general",
+      "isFailure": false,
+      "commits": 1,
+      "filesChanged": 4,
+      "artifacts": [],
+      "effort": "high",
+      "telemetry": {
+        "toolCalls": 10,
+        "p50": 1296,
+        "p95": 6261
+      }
+    }
+  ]
+}

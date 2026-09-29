@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28T23:53:56.952Z",
+  "generated": "2026-09-29T00:14:00.790Z",
   "repository": {
     "name": "cairn"
   },
@@ -1961,6 +1961,13 @@
           "category": "Discovery",
           "documentId": "ARC-001-STKE-v1.1",
           "extension": ".md"
+        },
+        {
+          "path": "projects/001-cairn/ARC-001-STKE-v1.2.md",
+          "title": "Stakeholder Analysis",
+          "category": "Discovery",
+          "documentId": "ARC-001-STKE-v1.2",
+          "extension": ".md"
         }
       ],
       "audits": [],
@@ -2004,7 +2011,7 @@
           "stale": false,
           "draft": true,
           "orphan": true,
-          "ageDays": 0
+          "ageDays": 1
         }
       },
       "ARC-001-DATA-v1.0": {
@@ -2129,7 +2136,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 0
+          "ageDays": 1
         }
       },
       "ARC-001-REQ-v1.0": {
@@ -2295,7 +2302,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 0
+          "ageDays": 1
         }
       },
       "ARC-001-REQ-v1.1": {
@@ -2468,7 +2475,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 0
+          "ageDays": 1
         }
       },
       "ARC-001-STKE-v1.0": {
@@ -2513,7 +2520,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 0
+          "ageDays": 1
         }
       },
       "ARC-001-STKE-v1.1": {
@@ -2539,6 +2546,51 @@
           "Version": "1.1",
           "Created Date": "2026-09-28",
           "Last Modified": "2026-09-28",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-10-28",
+          "Owner": "Chris McKelt (Architecture Owner)",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Project Team, Architecture Team, Clinical Safety, Privacy"
+        },
+        "reqIds": [
+          "DR-012",
+          "FR-012",
+          "FR-032",
+          "FR-036",
+          "FR-041",
+          "FR-047"
+        ],
+        "health": {
+          "stale": false,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 1
+        }
+      },
+      "ARC-001-STKE-v1.2": {
+        "type": "STKE",
+        "project": "001-cairn",
+        "path": "projects/001-cairn/ARC-001-STKE-v1.2.md",
+        "title": "Stakeholder Drivers & Goals Analysis: Cairn — Longitudinal Guidance and Evidence Platform",
+        "status": "DRAFT",
+        "severity": "LOW",
+        "createdDate": "2026-09-28",
+        "lastModified": "2026-09-29",
+        "version": "1.2",
+        "owner": "Chris McKelt (Architecture Owner)",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-STKE-v1.2",
+          "Document Type": "Stakeholder Drivers & Goals Analysis",
+          "Project": "Cairn — Longitudinal Guidance and Evidence Platform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.2",
+          "Created Date": "2026-09-28",
+          "Last Modified": "2026-09-29",
           "Review Cycle": "Monthly",
           "Next Review Date": "2026-10-28",
           "Owner": "Chris McKelt (Architecture Owner)",
@@ -2617,11 +2669,21 @@
         "from": "ARC-001-STKE-v1.1",
         "to": "ARC-000-PRIN",
         "type": "references"
+      },
+      {
+        "from": "ARC-001-STKE-v1.2",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-STKE-v1.2",
+        "to": "ARC-000-PRIN",
+        "type": "references"
       }
     ]
   },
   "projectHealth": {
-    "baseline": "2026-09-28T23:53:57.049Z",
+    "baseline": "2026-09-29T00:14:00.854Z",
     "staleThresholdDays": 90,
     "essentialTypes": [
       {
@@ -2691,9 +2753,9 @@
       {
         "project": "001-cairn",
         "projectId": "001",
-        "artifactCount": 5,
-        "edgeCount": 11,
-        "density": 2.2,
+        "artifactCount": 6,
+        "edgeCount": 13,
+        "density": 2.17,
         "coverage": {
           "essentialPresent": [
             "REQ",
@@ -2769,7 +2831,7 @@
         },
         "health": {
           "stale": 0,
-          "draft": 5,
+          "draft": 6,
           "orphan": 0
         },
         "contextualSuggestions": [
