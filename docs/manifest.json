@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29T00:35:00.371Z",
+  "generated": "2026-09-29T00:44:06.801Z",
   "repository": {
     "name": "cairn"
   },
@@ -1989,6 +1989,12 @@
           "category": "Discovery",
           "documentId": "ARC-001-STKE-v1.2",
           "extension": ".md"
+        },
+        {
+          "path": "projects/001-cairn/ARC-001-SOBC-v1.0.md",
+          "title": "Strategic Outline Business Case",
+          "documentId": "ARC-001-SOBC-v1.0",
+          "category": "Planning"
         }
       ],
       "audits": [],
