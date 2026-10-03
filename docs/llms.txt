@@ -12,7 +12,7 @@ ArcKit maintains a traceability chain: Stakeholders → Goals → Requirements (
 
 ## Project status
 
-- 001-cairn: 50% essential coverage · 17% compliance readiness · 10 drafts · next: /arckit:adr
+- 001-cairn: 63% essential coverage · 17% compliance readiness · 12 drafts · next: /arckit:hld-review
 
 ## Global artifacts
 
@@ -32,6 +32,13 @@ ArcKit maintains a traceability chain: Stakeholders → Goals → Requirements (
 - [Stakeholder Analysis](https://raw.githubusercontent.com/Axurcio/cairn/main/projects/001-cairn/ARC-001-STKE-v1.0.md): Discovery · `ARC-001-STKE-v1.0`.
 - [Stakeholder Analysis](https://raw.githubusercontent.com/Axurcio/cairn/main/projects/001-cairn/ARC-001-STKE-v1.1.md): Discovery · `ARC-001-STKE-v1.1`.
 - [Stakeholder Analysis](https://raw.githubusercontent.com/Axurcio/cairn/main/projects/001-cairn/ARC-001-STKE-v1.2.md): Discovery · `ARC-001-STKE-v1.2`.
+- [Architecture Decision Record: Adopt Graphiti as the Long-Term Context Memory Provider](https://raw.githubusercontent.com/Axurcio/cairn/main/projects/001-cairn/decisions/ARC-001-ADR-001-v1.0.md) · `ARC-001-ADR-001-v1.0`.
+- [Technology and Service Research: Cairn — Longitudinal Guidance and Evidence Platform](https://raw.githubusercontent.com/Axurcio/cairn/main/projects/001-cairn/research/ARC-001-RSCH-v1.0.md) · `ARC-001-RSCH-v1.0`.
+- [Amazon Web Services profile](https://raw.githubusercontent.com/Axurcio/cairn/main/projects/001-cairn/vendors/amazon-web-services-profile.md): Vendor profile.
+- [Mentorloop profile](https://raw.githubusercontent.com/Axurcio/cairn/main/projects/001-cairn/vendors/mentorloop-profile.md): Vendor profile.
+- [Neo4j profile](https://raw.githubusercontent.com/Axurcio/cairn/main/projects/001-cairn/vendors/neo4j-profile.md): Vendor profile.
+- [Tech Note: Amazon Bedrock Australian Data Residency](https://raw.githubusercontent.com/Axurcio/cairn/main/projects/001-cairn/tech-notes/amazon-bedrock-australian-data-residency.md): Technical note.
+- [Tech Note: Graphiti Graph Database Backends](https://raw.githubusercontent.com/Axurcio/cairn/main/projects/001-cairn/tech-notes/graphiti-graph-database-backends.md): Technical note.
 
 ## ArcKit guides
 

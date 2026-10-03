@@ -1,6 +1,48 @@
 {
-  "generated": "2026-09-29T00:59:54.224Z",
+  "generated": "2026-10-03T00:05:14.221Z",
   "sessions": [
+    {
+      "ts": "2026-10-03T00:05:14.221Z",
+      "type": "architecture",
+      "isFailure": false,
+      "commits": 1,
+      "filesChanged": 11,
+      "artifacts": [
+        {
+          "project": "001",
+          "categories": {
+            "Architecture": [
+              "Architecture Decision Records"
+            ],
+            "Discovery": [
+              "Research Findings"
+            ]
+          }
+        }
+      ],
+      "effort": "medium",
+      "telemetry": {
+        "toolCalls": 146,
+        "p50": 1685,
+        "p95": 8355,
+        "byAgent": [
+          {
+            "agent": "arckit:arckit-research",
+            "toolCalls": 108,
+            "mcpCalls": 0,
+            "p50": 1489,
+            "p95": 7805
+          },
+          {
+            "agent": "main",
+            "toolCalls": 38,
+            "mcpCalls": 0,
+            "p50": 2184,
+            "p95": 31725
+          }
+        ]
+      }
+    },
     {
       "ts": "2026-09-29T00:59:54.224Z",
       "type": "planning",
