@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29T00:44:06.801Z",
+  "generated": "2026-10-02T21:40:28.614Z",
   "repository": {
     "name": "cairn"
   },
@@ -99,13 +99,6 @@
       "pack": "TOGAF ADM Overlay"
     },
     {
-      "path": "docs/guides/archify.md",
-      "title": "Interactive Diagram Guide",
-      "category": "Architecture",
-      "status": "experimental",
-      "section": "Core Workflows"
-    },
-    {
       "path": "docs/guides/architecture-board.md",
       "title": "Architecture Board Playbook",
       "category": "TOGAF ADM Overlay",
@@ -135,14 +128,6 @@
       "category": "Governance",
       "status": "beta",
       "section": "Core Workflows"
-    },
-    {
-      "path": "docs/guides/at-barrierefreiheit.md",
-      "title": "Austrian Accessibility (BaFG / WZG) Playbook",
-      "category": "Community overlays - Austria",
-      "status": "community",
-      "section": "Overlay Packs",
-      "pack": "Community overlays - Austria"
     },
     {
       "path": "docs/guides/at-bvergg.md",
@@ -320,13 +305,6 @@
       "category": "Planning",
       "status": "live",
       "section": "Core Workflows"
-    },
-    {
-      "path": "docs/guides/byo-llm.md",
-      "title": "Bring Your Own LLM",
-      "category": "Plugin Operations",
-      "status": "beta",
-      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/c4-layout-science.md",
@@ -569,14 +547,6 @@
     {
       "path": "docs/guides/eu-ai-act.md",
       "title": "EU AI Act Compliance Assessment Playbook",
-      "category": "Community overlays - EU",
-      "status": "community",
-      "section": "Overlay Packs",
-      "pack": "Community overlays - EU"
-    },
-    {
-      "path": "docs/guides/eu-cloud-sovereignty.md",
-      "title": "EU Cloud Sovereignty Framework Playbook",
       "category": "Community overlays - EU",
       "status": "community",
       "section": "Overlay Packs",
@@ -946,14 +916,6 @@
       "section": "Core Workflows"
     },
     {
-      "path": "docs/guides/nl-overlay.md",
-      "title": "Netherlands Public Sector Cloud Overlay Guide",
-      "category": "Community overlays - Netherlands",
-      "status": "community",
-      "section": "Overlay Packs",
-      "pack": "Community overlays - Netherlands"
-    },
-    {
       "path": "docs/guides/operationalize.md",
       "title": "Operational Readiness Playbook",
       "category": "Operations",
@@ -1039,14 +1001,6 @@
       "section": "Plugin and Extension Operations"
     },
     {
-      "path": "docs/guides/repo-audit.md",
-      "title": "Codebase Audit Guide",
-      "category": "Repository Plugin",
-      "status": "community",
-      "section": "Overlay Packs",
-      "pack": "Repository Plugin"
-    },
-    {
       "path": "docs/guides/repo-docs.md",
       "title": "Repository Documentation Wiki Guide",
       "category": "Repository Plugin",
@@ -1096,6 +1050,139 @@
       "category": "Planning",
       "status": "beta",
       "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/roles\\README.md",
+      "title": "ArcKit DDaT Role Guides",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\business-analyst.md",
+      "title": "Business Analyst — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\business-architect.md",
+      "title": "Business Architect — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\cdo.md",
+      "title": "CDO (Chief Data Officer) — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\ciso.md",
+      "title": "CISO (Chief Information Security Officer) — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\cto-cdio.md",
+      "title": "CTO / CDIO — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\data-architect.md",
+      "title": "Data Architect — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\data-governance-manager.md",
+      "title": "Data Governance Manager — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\delivery-manager.md",
+      "title": "Delivery Manager — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\devops-engineer.md",
+      "title": "DevOps Engineer — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\enterprise-architect.md",
+      "title": "Enterprise Architect — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\it-service-manager.md",
+      "title": "IT Service Manager — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\network-architect.md",
+      "title": "Network Architect — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\performance-analyst.md",
+      "title": "Performance Analyst — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\product-manager.md",
+      "title": "Product Manager — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\security-architect.md",
+      "title": "Security Architect — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\service-owner.md",
+      "title": "Service Owner — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\solution-architect.md",
+      "title": "Solution Architect — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/roles\\technical-architect.md",
+      "title": "Technical Architect — ArcKit Command Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
     },
     {
       "path": "docs/guides/score.md",
@@ -1423,12 +1510,61 @@
       "pack": "UK Finance Payments Overlay"
     },
     {
+      "path": "docs/guides/uk-government\\ai-playbook.md",
+      "title": "UK Government AI Playbook Guide",
+      "category": "Compliance",
+      "status": "alpha",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/uk-government\\algorithmic-transparency.md",
+      "title": "Algorithmic Transparency Recording Standard (ATRS) Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/uk-government\\digital-marketplace.md",
+      "title": "Digital Marketplace Procurement Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/uk-government\\secure-by-design.md",
+      "title": "UK Government Secure by Design Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/uk-government\\standards-map.md",
+      "title": "UK Government Digital Policy & Standards Map",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
+      "path": "docs/guides/uk-government\\technology-code-of-practice.md",
+      "title": "Technology Code of Practice (TCoP) Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
+    },
+    {
       "path": "docs/guides/uk-mdr-classification.md",
       "title": "UK + EU MDR SaMD / AIaMD Classification Guide",
       "category": "UK NHS Clinical Safety Overlay",
       "status": "community",
       "section": "Overlay Packs",
       "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/uk-mod\\secure-by-design.md",
+      "title": "MOD Secure by Design Guide",
+      "category": "Other",
+      "status": "beta",
+      "section": "Other / Uncategorised"
     },
     {
       "path": "docs/guides/uk-nhs-dcb0129.md",
@@ -1577,116 +1713,7 @@
       "section": "Core Workflows"
     }
   ],
-  "roleGuides": [
-    {
-      "path": "docs/guides/roles/business-analyst.md",
-      "title": "Business Analyst",
-      "family": "Product and Delivery",
-      "commandCount": 4
-    },
-    {
-      "path": "docs/guides/roles/business-architect.md",
-      "title": "Business Architect",
-      "family": "Architecture",
-      "commandCount": 5
-    },
-    {
-      "path": "docs/guides/roles/cdo.md",
-      "title": "CDO (Chief Data Officer)",
-      "family": "Chief Digital and Data",
-      "commandCount": 4
-    },
-    {
-      "path": "docs/guides/roles/ciso.md",
-      "title": "CISO (Chief Information Security Officer)",
-      "family": "Chief Digital and Data",
-      "commandCount": 5
-    },
-    {
-      "path": "docs/guides/roles/cto-cdio.md",
-      "title": "CTO / CDIO",
-      "family": "Chief Digital and Data",
-      "commandCount": 5
-    },
-    {
-      "path": "docs/guides/roles/data-architect.md",
-      "title": "Data Architect",
-      "family": "Architecture",
-      "commandCount": 4
-    },
-    {
-      "path": "docs/guides/roles/data-governance-manager.md",
-      "title": "Data Governance Manager",
-      "family": "Data",
-      "commandCount": 4
-    },
-    {
-      "path": "docs/guides/roles/delivery-manager.md",
-      "title": "Delivery Manager",
-      "family": "Product and Delivery",
-      "commandCount": 6
-    },
-    {
-      "path": "docs/guides/roles/devops-engineer.md",
-      "title": "DevOps Engineer",
-      "family": "Software Development",
-      "commandCount": 3
-    },
-    {
-      "path": "docs/guides/roles/enterprise-architect.md",
-      "title": "Enterprise Architect",
-      "family": "Architecture",
-      "commandCount": 12
-    },
-    {
-      "path": "docs/guides/roles/it-service-manager.md",
-      "title": "IT Service Manager",
-      "family": "IT Operations",
-      "commandCount": 3
-    },
-    {
-      "path": "docs/guides/roles/network-architect.md",
-      "title": "Network Architect",
-      "family": "Architecture",
-      "commandCount": 3
-    },
-    {
-      "path": "docs/guides/roles/performance-analyst.md",
-      "title": "Performance Analyst",
-      "family": "Data",
-      "commandCount": 4
-    },
-    {
-      "path": "docs/guides/roles/product-manager.md",
-      "title": "Product Manager",
-      "family": "Product and Delivery",
-      "commandCount": 5
-    },
-    {
-      "path": "docs/guides/roles/security-architect.md",
-      "title": "Security Architect",
-      "family": "Architecture",
-      "commandCount": 5
-    },
-    {
-      "path": "docs/guides/roles/service-owner.md",
-      "title": "Service Owner",
-      "family": "Product and Delivery",
-      "commandCount": 3
-    },
-    {
-      "path": "docs/guides/roles/solution-architect.md",
-      "title": "Solution Architect",
-      "family": "Architecture",
-      "commandCount": 10
-    },
-    {
-      "path": "docs/guides/roles/technical-architect.md",
-      "title": "Technical Architect",
-      "family": "Architecture",
-      "commandCount": 5
-    }
-  ],
+  "roleGuides": [],
   "guideSectionOrder": [
     "Core Workflows",
     "Plugin and Extension Operations",
@@ -1717,7 +1744,6 @@
     "Canada Federal Overlay",
     "Community overlays - EU",
     "Community overlays - France",
-    "Community overlays - Netherlands",
     "UAE Federal Overlay",
     "UK G-Cloud Supplier Overlay",
     "UK Finance Payments Overlay",
@@ -1776,11 +1802,6 @@
     "AAIN": "Architecture",
     "AASE": "Governance",
     "AAMT": "Governance",
-    "OASTR": "Planning",
-    "OAPR": "Architecture",
-    "OAAL": "Architecture",
-    "OASEC": "Governance",
-    "OAGOV": "Governance",
     "RISK": "Governance",
     "TRAC": "Governance",
     "PRIN-COMP": "Governance",
@@ -1789,9 +1810,6 @@
     "DECK": "Reporting",
     "ANAL": "Governance",
     "GAPS": "Governance",
-    "CDAU": "Governance",
-    "GLOS": "Governance",
-    "FWRK": "Governance",
     "TCOP": "Compliance",
     "SECD": "Compliance",
     "SECD-MOD": "Compliance",
@@ -1835,7 +1853,6 @@
     "CRA": "Compliance",
     "DSA": "Compliance",
     "DATAACT": "Compliance",
-    "EUCSF": "Compliance",
     "IRN": "Governance",
     "CNIL": "Compliance",
     "SECNUM": "Compliance",
@@ -1848,7 +1865,6 @@
     "ALGO": "Compliance",
     "PSSI": "Compliance",
     "REUSE": "Procurement",
-    "ATBFR": "Compliance",
     "ATDSG": "Compliance",
     "ATNISG": "Compliance",
     "BVERGG": "Procurement",
@@ -1898,10 +1914,6 @@
     "AUPSPF": "Governance",
     "AUAIA": "Compliance",
     "AUDISP": "Compliance",
-    "RBCLOUD": "Compliance",
-    "TBB": "Compliance",
-    "BIO2": "Compliance",
-    "NLEXIT": "Governance",
     "FSSCA": "Compliance",
     "FSSAFE": "Compliance",
     "FSCD": "Compliance",
@@ -1970,6 +1982,13 @@
           "extension": ".md"
         },
         {
+          "path": "projects/001-cairn/ARC-001-SOBC-v1.0.md",
+          "title": "Strategic Outline Business Case",
+          "category": "Planning",
+          "documentId": "ARC-001-SOBC-v1.0",
+          "extension": ".md"
+        },
+        {
           "path": "projects/001-cairn/ARC-001-STKE-v1.0.md",
           "title": "Stakeholder Analysis",
           "category": "Discovery",
@@ -1989,16 +2008,8 @@
           "category": "Discovery",
           "documentId": "ARC-001-STKE-v1.2",
           "extension": ".md"
-        },
-        {
-          "path": "projects/001-cairn/ARC-001-SOBC-v1.0.md",
-          "title": "Strategic Outline Business Case",
-          "documentId": "ARC-001-SOBC-v1.0",
-          "category": "Planning"
         }
-      ],
-      "audits": [],
-      "framework": []
+      ]
     }
   ],
   "dependencyGraph": {
@@ -2038,7 +2049,7 @@
           "stale": false,
           "draft": true,
           "orphan": true,
-          "ageDays": 1
+          "ageDays": 4
         }
       },
       "ARC-001-DATA-v1.0": {
@@ -2163,7 +2174,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 1
+          "ageDays": 4
         }
       },
       "ARC-001-DPIA-v1.0": {
@@ -2253,7 +2264,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 0
+          "ageDays": 3
         }
       },
       "ARC-001-REQ-v1.0": {
@@ -2419,7 +2430,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 1
+          "ageDays": 4
         }
       },
       "ARC-001-REQ-v1.1": {
@@ -2592,7 +2603,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 1
+          "ageDays": 4
         }
       },
       "ARC-001-RISK-v1.0": {
@@ -2684,7 +2695,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 0
+          "ageDays": 3
         }
       },
       "ARC-001-RISK-v1.1": {
@@ -2777,7 +2788,55 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 0
+          "ageDays": 3
+        }
+      },
+      "ARC-001-SOBC-v1.0": {
+        "type": "SOBC",
+        "project": "001-cairn",
+        "path": "projects/001-cairn/ARC-001-SOBC-v1.0.md",
+        "title": "Strategic Outline Business Case (SOBC)",
+        "status": "DRAFT",
+        "severity": "LOW",
+        "createdDate": "2026-09-29",
+        "lastModified": "2026-09-29",
+        "version": "1.0",
+        "owner": "Haim Ozchakir (Executive Sponsor, S-11)",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-SOBC-v1.0",
+          "Document Type": "Strategic Outline Business Case (SOBC)",
+          "Project": "Cairn — Longitudinal Guidance and Evidence Platform (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-09-29",
+          "Last Modified": "2026-09-29",
+          "Review Cycle": "At each phase gate",
+          "Next Review Date": "2026-12-15",
+          "Owner": "Haim Ozchakir (Executive Sponsor, S-11)",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Executive Sponsor, Architecture Review Board, investors and advisers; published in the open repository",
+          "Total Benefits": "|",
+          "Total CapEx": "**A$2.17M**",
+          "Total OpEx": "**A$0.17M**",
+          "Total TCO": "**A$2.34M**",
+          "Total": "**6.0**"
+        },
+        "reqIds": [
+          "FR-040",
+          "FR-046",
+          "FR-047",
+          "FR-051"
+        ],
+        "health": {
+          "stale": false,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 3
         }
       },
       "ARC-001-STKE-v1.0": {
@@ -2822,7 +2881,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 1
+          "ageDays": 4
         }
       },
       "ARC-001-STKE-v1.1": {
@@ -2867,7 +2926,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 1
+          "ageDays": 4
         }
       },
       "ARC-001-STKE-v1.2": {
@@ -2912,7 +2971,7 @@
           "stale": false,
           "draft": true,
           "orphan": false,
-          "ageDays": 0
+          "ageDays": 3
         }
       }
     },
@@ -3013,6 +3072,31 @@
         "type": "references"
       },
       {
+        "from": "ARC-001-SOBC-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-SOBC-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-SOBC-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-SOBC-v1.0",
+        "to": "ARC-001-DPIA",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-SOBC-v1.0",
+        "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
         "from": "ARC-001-STKE-v1.0",
         "to": "ARC-001-REQ",
         "type": "references"
@@ -3045,7 +3129,7 @@
     ]
   },
   "projectHealth": {
-    "baseline": "2026-09-29T00:35:00.569Z",
+    "baseline": "2026-10-02T21:40:28.633Z",
     "staleThresholdDays": 90,
     "essentialTypes": [
       {
@@ -3115,22 +3199,17 @@
       {
         "project": "001-cairn",
         "projectId": "001",
-        "artifactCount": 9,
-        "edgeCount": 25,
-        "density": 2.78,
+        "artifactCount": 10,
+        "edgeCount": 30,
+        "density": 3,
         "coverage": {
           "essentialPresent": [
             "REQ",
             "STKE",
-            "RISK"
+            "RISK",
+            "SOBC"
           ],
           "essentialMissing": [
-            {
-              "type": "SOBC",
-              "command": "/arckit:sobc",
-              "label": "Strategic Outline Business Case",
-              "tier": 2
-            },
             {
               "type": "ADR",
               "command": "/arckit:adr",
@@ -3156,19 +3235,21 @@
               "tier": 4
             }
           ],
-          "essentialPct": 38,
+          "essentialPct": 50,
           "presentTypes": [
             "DATA",
             "DPIA",
             "REQ",
             "RISK",
+            "SOBC",
             "STKE"
           ],
           "presentByCategory": {
             "Architecture": 1,
             "Compliance": 1,
             "Discovery": 2,
-            "Governance": 1
+            "Governance": 1,
+            "Planning": 1
           }
         },
         "compliance": {
@@ -3193,7 +3274,7 @@
         },
         "health": {
           "stale": 0,
-          "draft": 9,
+          "draft": 10,
           "orphan": 0
         },
         "contextualSuggestions": [
@@ -3211,13 +3292,6 @@
         "hasGlobalPrin": true,
         "recommendations": [
           {
-            "command": "/arckit:sobc",
-            "label": "Strategic Outline Business Case",
-            "type": "SOBC",
-            "tier": 2,
-            "reason": "Tier 2 essential missing"
-          },
-          {
             "command": "/arckit:adr",
             "label": "Architecture Decision Record",
             "type": "ADR",
@@ -3230,6 +3304,13 @@
             "type": "HLDR",
             "tier": 3,
             "reason": "Tier 3 essential missing"
+          },
+          {
+            "command": "/arckit:traceability",
+            "label": "Traceability Matrix",
+            "type": "TRAC",
+            "tier": 4,
+            "reason": "Tier 4 essential missing"
           }
         ]
       }
